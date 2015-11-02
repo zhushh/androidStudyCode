@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">First Experience</string>
+    <string name="usernameHint">User:</string>
+    <string name="passwordHint">Password:</string>
+    <string name="welcomeText">Welcome To First Android Class!</string>
+    <string name="loginButton">Login</string>
+    <string name="registerButton">Register</string>
+</resources>

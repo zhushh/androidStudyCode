@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@color/headerBackgroundColor">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/personInformation"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="@string/submit"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/imageHeight"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/header_height"
+        android:layout_marginRight="@dimen/rightMargin">
+
+        <ImageView
+            android:id="@+id/studentImg"
+            android:layout_width="@dimen/imageWidth"
+            android:layout_height="@dimen/imageHeight"
+            android:src="@drawable/avatar"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/imageWidth">
+            <TableRow>
+                <EditText
+                    android:id="@+id/studentId"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="student id"/>
+            </TableRow>
+            <TableRow>
+                <EditText
+                    android:id="@+id/studentName"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="student name"/>
+            </TableRow>
+        </TableLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGround"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/imageWidth"
+            android:layout_marginTop="@dimen/topMargin">
+            <RadioButton
+                android:id="@+id/radioBoy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="boy"/>
+            <RadioButton
+                android:id="@+id/radioGirl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="girl"/>
+        </RadioGroup>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_2"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/majorFieldText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/majorField"/>
+
+        <Spinner
+            android:id="@+id/majorFieldSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinner_height">
+        </Spinner>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_3"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/birthday"/>
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </DatePicker>
+    </RelativeLayout>
+</RelativeLayout>

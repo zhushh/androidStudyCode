@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirstExperienceExtension</string>
+    <string name="personInformation">Person information</string>
+    <string name="submit">submit</string>
+    <string name="majorField">Select your major field</string>
+    <string name="birthday">Select your birthday</string>
+</resources>

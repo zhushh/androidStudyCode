@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">project2</string>
+    <string name="usernameHint">Please input your name</string>
+    <string name="passwordHint">Please input your password</string>
+    <string name="buttonReset">Reset</string>
+    <string name="dynamicText">This is dynamic text</string>
+</resources>
