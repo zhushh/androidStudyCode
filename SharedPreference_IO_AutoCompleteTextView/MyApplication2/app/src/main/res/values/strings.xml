@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title">Welcome to Login</string>
+    <string name="editTitle">Edit File</string>
+    <string name="userName">User:</string>
+    <string name="passwd">Password:</string>
+    <string name="rememberPasswd">Remember Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="fileName">File Name:</string>
+    <string name="fileContent">File Content:</string>
+    <string name="save">Save File</string>
+    <string name="read">Read File</string>
+    <string name="delete">Delete File</string>
+</resources>
