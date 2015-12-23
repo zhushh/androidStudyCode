@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="welcome">Welcome Mobile Phone Search</string>
+    <string name="phone_number_text">Phone Number:</string>
+    <string name="content_text">Content:</string>
+    <string name="search_text">Search</string>
+</resources>

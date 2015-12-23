@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WebService2</string>
+    <string name="header">请输入需要生成的验证码（支持中文，英文，符号和数字，最多支持8个字符）</string>
+    <string name="create">Create</string>
+</resources>
